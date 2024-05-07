@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>html style element</title>
+	<style>
+		h1 {color: red}
+		p {color: grey}
+		body {background-color: powderblue;}
+	</style>
+</head>
+<body>
+  <h1>The London Bridge</h1>
+  <p>London Bridge, as we know it today, was opened to traffic by The Late Queen Elizabeth II on 16 March 1973. Now made of concrete and steel, it replaced a 19th century stone arched bridge designed by Scottish civil engineer John Rennie, which in turn succeeded a 600-year-old stone-built structure.</p>
+  <!--using the max-width property -->
+  <img src="toyota supra.jpg" style="max-width:100%;height:auto;">
+  <p>"max-width:100%" prevents the image from getting bigger than its original size. However, if you make the browser window smaller, the image will still scale down.</p>
+  <!--icture change due  to different resize-->
+  <p>Resize the browser width and the image will change at 200px and 500px.</p>
+  <picture>
+  <source srcset="toyota supra.jpg" media="(max-width: 600px)">
+  <source srcset="nissan GTR.jpeg" media="(max-width: 1500px)">
+  <source srcset="toyota supra.jpg">
+  <img src="nissan GTR.jpeg" alt="cars" style="width:auto;">
+</picture>
+
+</body>
+</html>
