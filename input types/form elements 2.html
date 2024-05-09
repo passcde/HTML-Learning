@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DATALIST ELEMENT</title>
+</head>
+<body>
+<h3>Datalist Element</h3>
+<form>
+	<input list="cars" name="cars">
+	<datalist id="cars">
+		<option value="Maserati">
+		<option value="Audi">
+		<option value="BMW">
+		<option value="Alpha Romeo">
+        <option value="Toyota Supra">
+        <option value="Bentley">	
+	</datalist>
+	<input type="submit">
+</form>
+<!-- HTML input password-->
+<h3>How To Create A Passwordfield</h3>
+<p>The <strong>input type="password</strong>defines a password:</p>
+<form>
+	<label for="username">Username:</label><br>
+	<input type="text" id="username" name=username><br>
+	<label for="pwd">Password:</label><br>
+	<input type="password" id="pwd" name="pwd"><br><br>
+	<input type="submit">
+</form>
+<!--HTML RESET BUTTON-->
+<h3> HTML reset button</h3>
+<p>The <strong>input type="reset"</strong> defines a reset button that resets all form values to their default values:</p>
+<form>
+	<label for="fname">First name:</label><br>
+	<input type="text" id="fname" name="fname" value="Tycoon"><br>
+	<label for="lname">Last name:</label><br>
+	<input type="text" id="lname" name="lname" value="evans"><br><br>
+	<input type="submit" value="submit">
+	<input type="reset" value="reset">
+  </form>
+  <!--HTML INPUT COLOR-->
+  <h3>HTML INPUT COLOR</h3>
+  <p>The <strong>input type="color"</strong> is used for input fields that should contain a color.</p>
+  <form>
+  	<label for="favcolor">select your favorite color:</label>
+  	<input type="color" id="favcolor" name="favcolor" value="#ff0000">
+  	<input type="submit" name="submit"><br><br>
+  <!--HTML INPUT DATE-->
+  <h3>HTML INPUT DATE</h3>
+  <p>The <strong>input type="date"</strong> is used for input fields that should contain a date.</p>
+<form>
+	<label for="birthday">Birthday:</label>
+	<input type="date" id="bithday" name="birthday">
+	<input type="submit" value="submit">
+	<!--dates with max and min values-->
+	<h3>DATE WITH MAX AND MIN VALUES</h3>
+	<form>
+		<label for="datemin">Enter a date after 2000-01-01:</label>
+		<input type="date" id="datemin" name="datemin" min="2000-01-01"><br><br>
+		<label for="datemax">Enter a date before 1980-01-01:</label>
+		<input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+		<input type="submit" name="submit">
+	</form>
+	<!-- dates with no time zone-->
+	<h3>DATES WITH NO TIME ZONES</h3>
+	<FORM>
+		<label for="bithdaytime">Birthday (date and time):</label>
+		<input type="datetime-local" id="bithdaytime" name="birthdaytime">
+		<input type="submit" value="submit">
+	</form>
+</body>
+</html>

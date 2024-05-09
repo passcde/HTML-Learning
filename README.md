@@ -9,3 +9,5 @@
 - describes how to style html from the <head> section and using max-width to ensure responsiveness in our web page
 ## Forms
 - learnt how to create forms
+## Input types
+- learnt different forms of input types
